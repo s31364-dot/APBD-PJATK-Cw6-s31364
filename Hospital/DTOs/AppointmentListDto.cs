@@ -2,10 +2,10 @@
 
 public class AppointmentListDto
 {
-     public int IdAppointment { get; set; }
-     public DateTime AppointmentData { get; set; }
-     public string status { get; set; }
-     public string PatientFullName  { get; set; }
-     public string PatientEmail { get; set; }
-     
+    public int IdAppointment { get; set; }
+    public DateTime AppointmentDate { get; set; } 
+    public string Status { get; set; } = string.Empty;
+    public string Reason { get; set; } = string.Empty;
+    public string PatientFullName { get; set; } = string.Empty;
+    public string PatientEmail { get; set; } = string.Empty;
 }
